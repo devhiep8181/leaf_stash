@@ -1,0 +1,78 @@
+
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    avoid_positional_boolean_parameters: false
+    avoid_redundant_argument_values: false
+    always_declare_return_types : true
+    always_require_non_null_named_parameters  : true
+    annotate_overrides  : true
+    avoid_annotating_with_dynamic  : true
+    avoid_bool_literals_in_conditional_expressions  : true
+    avoid_empty_else  : true
+    avoid_unnecessary_containers  : true
+    avoid_web_libraries_in_flutter  : true
+    await_only_futures  : false
+    camel_case_types  : true
+    cancel_subscriptions  : true
+    close_sinks  : true
+    collection_methods_unrelated_type  : true
+    directives_ordering: false
+    empty_statements  : true
+    eol_at_end_of_file: false
+    file_names  : true
+    hash_and_equals  : true
+    lines_longer_than_80_chars: false
+    no_default_cases: false
+    no_duplicate_case_values  : true
+    no_logic_in_create_state  : true
+    one_member_abstracts: false
+    omit_local_variable_types  : true
+    only_throw_errors  : true
+    public_member_api_docs: false
+    prefer_const_constructors  : true
+    prefer_const_constructors_in_immutables  : true
+    prefer_const_declarations  : true
+    prefer_final_fields  : true
+    prefer_final_in_for_each  : true
+    prefer_int_literals: false
+    prefer_final_locals  : true
+    prefer_if_null_operators  : true
+    prefer_null_aware_operators  : true
+    prefer_relative_imports  : true
+    prefer_single_quotes  : true
+    prefer_void_to_null  : true
+    require_trailing_commas: false
+    sized_box_for_whitespace  : true
+    unawaited_futures: true
+    unnecessary_await_in_return  : true
+    unnecessary_const  : true
+    unnecessary_new  : true
+    unnecessary_statements  : true
+    unnecessary_this  : true
+    unrelated_type_equality_checks  : true
+    use_key_in_widget_constructors  : true
+    use_if_null_to_convert_nulls_to_bools: false
+analyzer:
+  errors:
+    missing_return: error
+    dead_code: error
+    always_declare_return_types: error
+    avoid_web_libraries_in_flutter: error
+    missing_required_param: error
+    file_names: error
+    camel_case_types: error
+    must_be_immutable: error
+    must_call_super: error
+    invalid_use_of_protected_member: error
+    parameter_assignments: error
+    empty_statements: error
+    iterable_contains_unrelated_type: error
+    list_remove_unrelated_type: error
+    no_duplicate_case_values: error
+    unrelated_type_equality_checks: error
+    sort_unnamed_constructors_first: ignore
+    prefer_relative_imports: error
+    prefer_single_quotes: error
+    always_use_package_imports: ignore
